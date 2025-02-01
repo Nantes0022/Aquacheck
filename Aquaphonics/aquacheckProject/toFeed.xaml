@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aquacheckProject.toFeed"
+             xmlns:cal="clr-namespace:Plugin.Maui.Calendar.Controls;assembly=Plugin.Maui.Calendar"
+             Title="toFeed">
+    <ScrollView>
+        <Grid BackgroundColor="#dfdde1">
+            <!-- Define row definitions -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <!-- For the Image -->
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <!-- For the Title -->
+                <RowDefinition Height="*"/>
+                <!-- For the white Frame section, takes remaining space -->
+            </Grid.RowDefinitions>
+
+            <!-- Initial Image Frame -->
+            <Frame Grid.Row="0" BorderColor="Transparent" BackgroundColor="Transparent">
+                <Image Source="aqua.png" HeightRequest="50"/>
+            </Frame>
+
+            <!-- Title Section -->
+            <StackLayout Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,-45,0,0">
+                <Frame BorderColor="Transparent" Background="Transparent">
+                    <Label FontFamily="Poppins-Bold" TextColor="Black" FontSize="20" Text="Feeding System"/>
+                </Frame>
+            </StackLayout>
+
+            <!-- Main Content Section (White Frame) that will expand -->
+            <Border Grid.Row="2" BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="5">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="20,20,0,0"></RoundRectangle>
+                </Border.StrokeShape>
+                <StackLayout VerticalOptions="FillAndExpand">
+                    <!-- Arrow Image at the top -->
+                    <StackLayout Orientation="Horizontal" Margin="10,20,0,0">
+                        <StackLayout>
+                            <Image Source="arrow.png" HeightRequest="25" HorizontalOptions="Start" VerticalOptions="Start"/>
+
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="back_Tapped" NumberOfTapsRequired="1" />
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                        <Border Background="#D9E5FF" Padding="20,8,20,5" Margin="245,-10,0,0" Stroke="Transparent">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="15,15,15,15"></RoundRectangle>
+                            </Border.StrokeShape>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Image Source="plus.png" HeightRequest="20" VerticalOptions="Start" Margin="0,5,0,0"/>
+                                <Label FontFamily="Poppins-SemiBold" FontSize="20" TextColor="#000000" Text="ADD" Padding="5,0,0,0"/>
+                            </StackLayout>
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="setTime_Tapped" NumberOfTapsRequired="1" />
+                            </Border.GestureRecognizers>
+                        </Border>
+                    </StackLayout>
+
+                    <!-- Feeder Image and Label -->
+                    <StackLayout>
+                        <Border Stroke="Transparent" >
+                            <StackLayout>
+                                <StackLayout Margin="0,40,0,0">
+                                    <Image Source="fishfeed.png" WidthRequest="150"/>
+                                </StackLayout>
+                                <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Margin="0,20,0,20">
+                                    <Label FontFamily="Poppins-Medium" FontSize="15" TextColor="Black" x:Name="interval" Margin="0,0,0,-6" />
+                                    <Label x:Name="hrs" TextColor="white" FontFamily="Poppins-Bold" Text="Upcoming Feed" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </Border>
+                    </StackLayout>
+
+                    <!-- Upcoming Feed Section -->
+                    <StackLayout Grid.Row="3" Margin="10">
+                        <Border BackgroundColor="#dfdde1">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10,10,10,10"></RoundRectangle>
+                            </Border.StrokeShape>
+                            <StackLayout Padding="15">
+                                <Border Background="Transparent" Stroke="Transparent" Padding="6,0,0,0">
+                                    <StackLayout>
+                                        <Label FontFamily="Poppins-Bold" TextColor="Black" Text="Upcoming Feed" FontSize="25"/>
+                                        <Label FontFamily="Poppins-Bold" TextColor="Black" Text="Today" Margin="0,5,0,0" FontSize="20"/>
+                                        <StackLayout x:Name="Data" Margin="20,-10,0,0">
+                                            <!--data-->
+                                            <ActivityIndicator x:Name="LoadingIndicator" IsVisible="False" IsRunning="False" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Border>
+                                <StackLayout>
+                                    <Border Background="Transparent" Stroke="Transparent">
+                                        <!-- Additional content for Upcoming Feed can go here -->
+                                    </Border>
+                                </StackLayout>
+                            </StackLayout>
+                        </Border>
+                    </StackLayout>
+
+                </StackLayout>
+            </Border>
+        </Grid>
+    </ScrollView>
+</ContentPage>

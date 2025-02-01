@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aquacheckProject.toWaterLevel"
+             Title="toWaterLevel">
+
+    <ScrollView>
+        <Grid BackgroundColor="#dfdde1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Frame Grid.Row="0" BorderColor="Transparent" BackgroundColor="Transparent">
+                <Image Source="aqua.png" HeightRequest="50"/>
+            </Frame>
+
+            <StackLayout Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,-45,0,0">
+                <Frame BorderColor="Transparent" Background="Transparent">
+                    <Label FontFamily="Poppins-Bold" FontSize="20" Text="Water Level"/>
+                </Frame>
+            </StackLayout>
+
+            <Frame Grid.Row="2" BorderColor="Transparent" CornerRadius="30" BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <StackLayout VerticalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Image Source="arrow.png" HeightRequest="25" HorizontalOptions="Start" VerticalOptions="Start">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="toHome"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Padding="5">
+                        <Frame CornerRadius="100" WidthRequest="200" HeightRequest="200"
+                       BackgroundColor="Transparent" 
+                       HorizontalOptions="Center" VerticalOptions="Center">
+                            <Label Text="10"
+                       FontAttributes="Bold"
+                       FontFamily="Arial Black"
+                       FontSize="50"
+                       Padding="10"
+                       TextColor="Green"
+                       HorizontalOptions="Center" VerticalOptions="Center"/>
+                        </Frame>
+                    </StackLayout>
+
+                    <StackLayout Padding="0,0,0,0">
+                        <Image Source="wave.png"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="FillAndExpand"/>
+
+
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </ScrollView>
+</ContentPage>

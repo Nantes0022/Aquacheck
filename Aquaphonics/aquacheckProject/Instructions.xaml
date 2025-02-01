@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aquacheckProject.Instructions"
+             Title="Instructions">
+    <ScrollView>
+        <Grid BackgroundColor="#dfdde1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Frame Grid.Row="0" BorderColor="Transparent" BackgroundColor="Transparent">
+                <Image Source="aqua.png" HeightRequest="50"/>
+            </Frame>
+
+            <StackLayout Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,-45,0,0">
+                <Frame BorderColor="Transparent" Background="Transparent">
+                    <Label FontFamily="Poppins-Bold" FontSize="20" Text="Instructions"/>
+                </Frame>
+            </StackLayout>
+
+            <Frame Grid.Row="2" BorderColor="Transparent" CornerRadius="30" BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <StackLayout VerticalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Image Source="arrow.png" HeightRequest="25" HorizontalOptions="Start" VerticalOptions="Start">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="returnTapped"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </StackLayout>
+
+
+                    <StackLayout>
+                        <Label HorizontalOptions="Center" VerticalOptions="Center" FontSize="18" FontFamily="Poppins-Bold" Text="For Monitoring" Margin="0,20,0,0"/>
+                        <Label HorizontalOptions="Start" VerticalOptions="Center" FontSize="14" FontFamily="Poppins-Regular" Text="1.	Mount the Water Sensor Box on the aquarium." Margin="0,10,0,0"/>
+                        <Label HorizontalOptions="Start" VerticalOptions="Center" FontSize="14" FontFamily="Poppins-Regular" Text="2.	Put the sensors inside the aquarium." Margin="0,10,0,0"/>
+                        <Label HorizontalOptions="Start" VerticalOptions="Center" FontSize="14" FontFamily="Poppins-Regular" Text="3.	Connect a 12 volts 2 amp power adapter to the backup power source then connect the power source to the Arduino board." Margin="0,10,0,0"/>
+                        <Label HorizontalOptions="Start" VerticalOptions="Center" FontSize="14" FontFamily="Poppins-Regular" Text="4.	Open the application and Start Monitoring the parameters of the water." Margin="0,10,30,0"/>
+
+                        <Label HorizontalOptions="Center" VerticalOptions="Center" FontSize="18" FontFamily="Poppins-Bold" Text="For Feeding" Margin="0,20,0,0"/>
+                        <Label HorizontalOptions="Start" VerticalOptions="Center" FontSize="14" FontFamily="Poppins-Regular" Text="1.	Mount the fish feeding at the side of aquarium." Margin="0,10,0,0"/>
+                        <Label HorizontalOptions="Start" VerticalOptions="Center" FontSize="14" FontFamily="Poppins-Regular" Text="2.	Open the application." Margin="0,10,0,0"/>
+                        <Label HorizontalOptions="Start" VerticalOptions="Center" FontSize="14" FontFamily="Poppins-Regular" Text="3.	Go to the Feeding Schedule." Margin="0,10,0,0"/>
+                        <Label HorizontalOptions="Start" VerticalOptions="Center" FontSize="14" FontFamily="Poppins-Regular" Text="4.	Tap the “+” Icon and Save." Margin="0,10,30,0"/>
+                        <Label HorizontalOptions="Start" VerticalOptions="Center" FontSize="14" FontFamily="Poppins-Regular" Text="5.	Set the time that you desired to feed your fish." Margin="0,10,30,0"/>
+                        <Label HorizontalOptions="Start" VerticalOptions="Center" FontSize="14" FontFamily="Poppins-Regular" Text="6.	Wait for it to dispense." Margin="0,10,30,0"/>
+
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </ScrollView>
+</ContentPage>

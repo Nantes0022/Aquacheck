@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aquacheckProject.WaterControl"
+             Title="WaterControl">
+    <ScrollView>
+        <Grid BackgroundColor="#dfdde1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Frame Grid.Row="0" BorderColor="Transparent" BackgroundColor="Transparent">
+                <Image Source="aqua.png" HeightRequest="50"/>
+            </Frame>
+
+            <StackLayout Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,-45,0,0">
+                <Frame BorderColor="Transparent" Background="Transparent">
+                    <Label FontFamily="Poppins-SemiBold" FontSize="35" Text="WATER CONTROL"/>
+                </Frame>
+            </StackLayout>
+
+            <Frame Grid.Row="2" BorderColor="Transparent" CornerRadius="30" BackgroundColor="#dfdde1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <StackLayout VerticalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Image Source="arrow.png" HeightRequest="25" HorizontalOptions="Start" VerticalOptions="Start">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="returnHomeTemp"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+            <Frame Grid.Row="3" BorderColor="Transparent" CornerRadius="30" BackgroundColor="#dfdde1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <StackLayout Margin="0,0,0,0" Orientation="Horizontal">
+                    <Border HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  BackgroundColor="White" >
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="20,20,20,20"/>
+                        </Border.StrokeShape>
+                        <StackLayout Padding="10">
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Drain Water" TextColor="black" FontFamily="Poppins-Medium" FontSize="14" Margin="0,0,195,0"></Label>
+
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,10,10,20">
+                                <Image Source="waterout.png" WidthRequest="80" Margin="0,5,0,0" ></Image>
+                            </StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="DrainWater" />
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </Border>
+                </StackLayout>
+            </Frame>
+            <Frame Grid.Row="4" BorderColor="Transparent" CornerRadius="30" BackgroundColor="#dfdde1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <StackLayout Margin="0,0,0,0" Orientation="Horizontal">
+                    <Border HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  BackgroundColor="White" >
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="20,20,20,20"/>
+                        </Border.StrokeShape>
+                        <StackLayout Padding="10">
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Fill Water" TextColor="black" FontFamily="Poppins-Medium" FontSize="14" Margin="0,0,216,0"></Label>
+
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,10,10,20">
+                                <Image Source="waterin.png" WidthRequest="80" Margin="0,5,0,0" ></Image>
+                            </StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="FillWater" />
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </Border>
+                </StackLayout>
+            </Frame>
+            <Frame Grid.Row="5" BorderColor="Transparent" CornerRadius="30" BackgroundColor="#dfdde1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <StackLayout Margin="0,0,0,0" Orientation="Horizontal">
+                    <Border HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  BackgroundColor="White" >
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="20,20,20,20"/>
+                        </Border.StrokeShape>
+                        <StackLayout Padding="10">
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="Water Control" TextColor="black" FontFamily="Poppins-Medium" FontSize="14" Margin="0,0,180,0"></Label>
+
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,10,10,20">
+                                <Image Source="fan.png" WidthRequest="80" Margin="0,5,0,0" ></Image>
+                            </StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Ventilation" />
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </Border>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </ScrollView>
+</ContentPage>

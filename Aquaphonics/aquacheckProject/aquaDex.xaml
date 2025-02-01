@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aquacheckProject.aquaDex"
+             Title="aquaDex">
+    <ScrollView>
+        <Border x:Name="borderfisher">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Image Source="aqadex.gif" Margin="0,15,0,0" WidthRequest="200" IsAnimationPlaying="True"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="1">
+                  
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Border Grid.Column="0" Stroke="Transparent"  BackgroundColor="Transparent">
+                                <Image Source="silhouette.png"  x:Name="fisher"  WidthRequest="200"/>
+                            </Border>
+                            <Border Grid.Column="1" Stroke="Transparent" BackgroundColor="Transparent"  VerticalOptions="CenterAndExpand" >
+                                <Picker x:Name="optionsPicker"
+                                         Title="Choose an Option"
+                                         SelectedIndexChanged="optionsPicker_SelectedIndexChanged"
+                                         FontSize="20"
+                                         FontFamily="Poppins-Medium" 
+                                         FontAttributes="Bold"
+                                            VerticalTextAlignment="Center"
+                                        >
+                                    <!-- Binding Picker Items -->
+                                    <Picker.ItemsSource>
+                                        <x:Array Type="{x:Type x:String}">
+                                           <x:String>Angelfish</x:String>
+                                            <x:String>Goldfish</x:String>
+                                            <x:String>Guppy</x:String>
+                                            <x:String>Molly</x:String>
+                                            <x:String>Platy</x:String>
+                                            <x:String>Tetra</x:String>
+                                        </x:Array>
+                                    </Picker.ItemsSource>
+                                    </Picker>
+                            </Border>
+                            
+                        </Grid>
+
+                   
+                </StackLayout>
+                <StackLayout Grid.Row="2">
+                    <Border HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Padding="16,25" x:Name="fborder">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="40,40,0,0"/>
+                            
+                        </Border.StrokeShape>
+                        <Grid x:Name="fishRow" IsVisible="False">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                               
+
+                            </Grid.RowDefinitions>
+                            <StackLayout Grid.Row="0"  Margin="0,0,0,15">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Grid.Column="0">
+                                        <Label TextColor="White" FontAttributes="Bold" FontFamily="Poppins-Medium"  FontSize="23"  Text="Type: "/>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand">
+                                        <Label TextColor="White" FontAttributes="Bold" FontFamily="Poppins-Medium" HorizontalTextAlignment="End"  FontSize="23" x:Name="typeText" Text=""/>
+                                    </StackLayout>
+                                </Grid>
+                            </StackLayout>
+                            <StackLayout Grid.Row="1"  Margin="0,0,0,15">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Grid.Column="0">
+                                        <Label TextColor="White" FontAttributes="Bold" FontFamily="Poppins-Medium"  FontSize="23" Text="Lifespan: "/>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1" HorizontalOptions="EndAndExpand">
+                                        <Label TextColor="White" FontAttributes="Bold" FontFamily="Poppins-Medium"  FontSize="23" x:Name="lifeText" Text=""/>
+                                    </StackLayout>
+                                </Grid>
+                            </StackLayout>
+                            <StackLayout Grid.Row="2"  Margin="0,0,0,15">
+                                <Grid>
+                                <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                    <StackLayout Grid.Column="0">
+                                        <Label TextColor="White" FontAttributes="Bold" FontFamily="Poppins-Medium"  FontSize="23" Text="Temperature: "/>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1" HorizontalOptions="EndAndExpand">
+                                        <Label TextColor="White" FontAttributes="Bold" FontFamily="Poppins-Medium"  FontSize="23" x:Name="tempText" Text=""/>
+                                    </StackLayout>
+                                </Grid>
+                            </StackLayout>
+                            <StackLayout Grid.Row="3"  Margin="0,0,0,15">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Grid.Column="0">
+                                        <Label TextColor="White" FontAttributes="Bold" FontFamily="Poppins-Medium"  FontSize="23" Text="Turbidity: "/>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1" HorizontalOptions="EndAndExpand">
+                                        <Label TextColor="White" FontAttributes="Bold" FontFamily="Poppins-Medium"  FontSize="23" x:Name="turbidText" Text=""/>
+                                    </StackLayout>
+                                </Grid>
+                            </StackLayout>
+                            <StackLayout Grid.Row="4"  Margin="0,0,0,15">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Grid.Column="0">
+                                        <Label TextColor="White" FontAttributes="Bold" FontFamily="Poppins-Medium"  FontSize="23" Text="pH Level: "/>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1" HorizontalOptions="EndAndExpand">
+                                        <Label TextColor="White" FontAttributes="Bold" FontFamily="Poppins-Medium"  FontSize="23" x:Name="phText" Text=""/>
+                                    </StackLayout>
+                                </Grid>
+                            </StackLayout>
+                            <StackLayout Grid.Row="5"  Margin="0,0,0,15">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Grid.Column="0">
+                                        <Label TextColor="White" FontAttributes="Bold" FontFamily="Poppins-Medium"  FontSize="23" Text="TDS Level: "/>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1" HorizontalOptions="EndAndExpand">
+                                        <Label TextColor="White" FontAttributes="Bold"  FontFamily="Poppins-Medium"  FontSize="23" x:Name="tdsText" Text=""/>
+                                    </StackLayout>
+                                </Grid>
+                            </StackLayout>
+                           
+
+                            <StackLayout Grid.Row="6"  Margin="0,0,0,15">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout Grid.Column="0">
+                                        <Label TextColor="White" FontAttributes="Bold" FontFamily="Poppins-Medium"  FontSize="23" Text="Variants: "/>
+                                    </StackLayout>
+                                    <StackLayout Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="End">
+                                        <Label TextColor="White" FontAttributes="Bold" FontFamily="Poppins-Medium" HorizontalTextAlignment="End"  FontSize="23" x:Name="varText" Text=""/>
+                                    </StackLayout>
+                                </Grid>
+                            </StackLayout>
+                        </Grid>
+                    </Border>
+                </StackLayout>
+            </Grid>
+        </Border>
+    </ScrollView>
+</ContentPage>

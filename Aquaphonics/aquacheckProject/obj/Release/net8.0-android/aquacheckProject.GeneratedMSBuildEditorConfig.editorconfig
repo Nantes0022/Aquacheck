@@ -1,0 +1,89 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = aquacheckProject
+build_property.ProjectDir = C:\Users\juber\OneDrive\Desktop\Cappy\Aquaphonics\aquacheckProject\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+
+[C:/Users/juber/OneDrive/Desktop/Cappy/Aquaphonics/aquacheckProject/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aquacheckProject.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/juber/OneDrive/Desktop/Cappy/Aquaphonics/aquacheckProject/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aquacheckProject.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/juber/OneDrive/Desktop/Cappy/Aquaphonics/aquacheckProject/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aquacheckProject.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = HomePage.xaml
+
+[C:/Users/juber/OneDrive/Desktop/Cappy/Aquaphonics/aquacheckProject/phLevel.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aquacheckProject.phLevel.xaml
+build_metadata.AdditionalFiles.TargetPath = phLevel.xaml
+build_metadata.AdditionalFiles.RelativePath = phLevel.xaml
+
+[C:/Users/juber/OneDrive/Desktop/Cappy/Aquaphonics/aquacheckProject/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aquacheckProject.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/juber/OneDrive/Desktop/Cappy/Aquaphonics/aquacheckProject/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aquacheckProject.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/juber/OneDrive/Desktop/Cappy/Aquaphonics/aquacheckProject/setTime.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aquacheckProject.setTime.xaml
+build_metadata.AdditionalFiles.TargetPath = setTime.xaml
+build_metadata.AdditionalFiles.RelativePath = setTime.xaml
+
+[C:/Users/juber/OneDrive/Desktop/Cappy/Aquaphonics/aquacheckProject/tdsLevel.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aquacheckProject.tdsLevel.xaml
+build_metadata.AdditionalFiles.TargetPath = tdsLevel.xaml
+build_metadata.AdditionalFiles.RelativePath = tdsLevel.xaml
+
+[C:/Users/juber/OneDrive/Desktop/Cappy/Aquaphonics/aquacheckProject/Temperature.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aquacheckProject.Temperature.xaml
+build_metadata.AdditionalFiles.TargetPath = Temperature.xaml
+build_metadata.AdditionalFiles.RelativePath = Temperature.xaml
+
+[C:/Users/juber/OneDrive/Desktop/Cappy/Aquaphonics/aquacheckProject/toFeed.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aquacheckProject.toFeed.xaml
+build_metadata.AdditionalFiles.TargetPath = toFeed.xaml
+build_metadata.AdditionalFiles.RelativePath = toFeed.xaml
+
+[C:/Users/juber/OneDrive/Desktop/Cappy/Aquaphonics/aquacheckProject/toWaterLevel.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aquacheckProject.toWaterLevel.xaml
+build_metadata.AdditionalFiles.TargetPath = toWaterLevel.xaml
+build_metadata.AdditionalFiles.RelativePath = toWaterLevel.xaml
+
+[C:/Users/juber/OneDrive/Desktop/Cappy/Aquaphonics/aquacheckProject/Turbidity.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = aquacheckProject.Turbidity.xaml
+build_metadata.AdditionalFiles.TargetPath = Turbidity.xaml
+build_metadata.AdditionalFiles.RelativePath = Turbidity.xaml

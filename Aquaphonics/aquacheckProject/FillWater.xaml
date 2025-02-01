@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aquacheckProject.FillWater"
+             Title="FillWater">
+    <Grid BackgroundColor="#dfdde1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Frame Grid.Row="0" BorderColor="Transparent" BackgroundColor="Transparent">
+            <Image Source="aqua.png" HeightRequest="50"/>
+        </Frame>
+
+        <StackLayout Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,-45,0,0">
+            <Frame BorderColor="Transparent" Background="Transparent">
+                <Label FontFamily="Poppins-SemiBold" FontSize="40" Text="Fill Water"/>
+            </Frame>
+        </StackLayout>
+
+        <Frame Grid.Row="2" BorderColor="Transparent" CornerRadius="30" BackgroundColor="#dfdde1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <StackLayout VerticalOptions="FillAndExpand">
+                <StackLayout>
+                    <Image Source="arrow.png" HeightRequest="25" HorizontalOptions="Start" VerticalOptions="Start">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="returnHomeTemp"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+
+        <Frame x:Name="OnFrame" Grid.Row="3" BorderColor="Transparent" CornerRadius="30" BackgroundColor="#dfdde1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" IsVisible="True">
+            <StackLayout Margin="0,0,0,0" Orientation="Horizontal">
+                <Border HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  BackgroundColor="White" >
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="20,20,20,20"/>
+                    </Border.StrokeShape>
+                    <StackLayout Padding="10">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="100,10,100,20">
+                            <Image Source="buttonon.png" WidthRequest="120" Margin="0,5,0,0" ></Image>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center">
+                            <Label x:Name="Indicator1" Text="Turn ON" TextColor="black" FontFamily="Poppins-Bold" FontSize="20"></Label>
+                        </StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="turnOn"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </Border>
+            </StackLayout>
+        </Frame>
+
+        <Frame x:Name="OffFrame" Grid.Row="3" BorderColor="Transparent" CornerRadius="30" BackgroundColor="#dfdde1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" IsVisible="False">
+            <StackLayout Margin="0,0,0,0" Orientation="Horizontal">
+                <Border HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  BackgroundColor="White" >
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="20,20,20,20"/>
+                    </Border.StrokeShape>
+                    <StackLayout Padding="10">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="100,10,100,20">
+                            <Image Source="buttonoff.png" WidthRequest="120" Margin="0,5,0,0" ></Image>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Center">
+                            <Label x:Name="Indicator2" Text="Turn OFF" TextColor="black" FontFamily="Poppins-Bold" FontSize="20"></Label>
+                        </StackLayout>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="turnOff"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </Border>
+            </StackLayout>
+        </Frame>
+    </Grid>
+</ContentPage>

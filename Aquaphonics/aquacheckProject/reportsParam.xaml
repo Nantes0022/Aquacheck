@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aquacheckProject.reportsParam"
+             Title="reportsParam">
+    <ScrollView>
+        <Grid BackgroundColor="#dfdde1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Frame Grid.Row="0" BorderColor="Transparent" BackgroundColor="Transparent">
+                <Image Source="aqua.png" HeightRequest="50"/>
+            </Frame>
+
+            <StackLayout Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,-45,0,0">
+                <Frame BorderColor="Transparent" Background="Transparent">
+                    <Label FontFamily="Poppins-Bold" FontSize="20" Text="Reports"/>
+                </Frame>
+            </StackLayout>
+
+            <Frame Grid.Row="2" BorderColor="Transparent" CornerRadius="30" BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <StackLayout VerticalOptions="FillAndExpand">
+                    <StackLayout>
+                        <Image Source="arrow.png" HeightRequest="25" Margin="0,0,0,20" HorizontalOptions="Start" VerticalOptions="Start">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="toHome"  NumberOfTapsRequired="1"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+
+                        <Label Text="(dd-mm-yyyy)"></Label>
+                    </StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Border Grid.Row="0" >
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.Column="0">
+                                    <StackLayout>
+                                        <DatePicker x:Name="datePicker"
+                                         Format="dd-MM-yyyy"
+                                         DateSelected="datePicker_DateSelected"
+                                         Date="{Binding CurrentDate}" 
+                                         MinimumDate="{Binding MinDate}" 
+                                         MaximumDate="{Binding MaxDate}" /> 
+                                    </StackLayout>
+                                </Border>
+                                <Border Grid.Column="1">
+                                    <Picker x:Name="optionsPicker"
+                                         Title="Choose an Option"
+                                         SelectedIndexChanged="optionsPicker_SelectedIndexChanged"
+                                         FontSize="14"
+                                         FontFamily="Poppins-Medium" 
+                                         FontAttributes="Bold"
+                                         VerticalTextAlignment="Center">
+                                        <!-- Binding Picker Items -->
+                                        <Picker.ItemsSource>
+                                            <x:Array Type="{x:Type x:String}">
+                                                <x:String>Manual Feeding</x:String>
+                                                <x:String>AutomaticFeeding</x:String>
+                                                
+                                            </x:Array>
+                                        </Picker.ItemsSource>
+                                    </Picker>
+                                </Border>
+
+                            </Grid>
+                        </Border>
+                        <Border Grid.Row="1" Margin="0,5,0,0" Stroke="Transparent">
+                            <Grid >
+                                <Grid.ColumnDefinitions>
+                                  
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                               
+                                <Border Grid.Column="0" Stroke="Transparent">
+                                    <Label Text="Date" FontSize="15"  VerticalTextAlignment="Start" FontAttributes="Bold"/>
+                                </Border>
+                                <Border Grid.Column="1" Stroke="Transparent">
+                                    <Label Text="Time(24H)" FontSize="15"  VerticalTextAlignment="Start" FontAttributes="Bold"/>
+                                </Border>
+                                <Border Grid.Column="2" Stroke="Transparent">
+                                    <Label Text="Fish Type"  FontSize="15"  VerticalTextAlignment="Start" FontAttributes="Bold"/>
+                                </Border>
+                            </Grid>
+                        </Border>
+
+                        <Border Grid.Row="2" Margin="0,5,0,0" Stroke="Transparent">
+                            <CollectionView x:Name="reportsCollectionView" ItemsSource="{Binding}">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackLayout Margin="0">
+                                            <Grid >
+                                                <Grid.ColumnDefinitions>
+                                                    
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                               
+                                                <Border Grid.Column="0" Stroke="Transparent">
+                                                    <Label Text="{Binding Date}"  FontSize="14" VerticalTextAlignment="Start"/>
+                                                </Border>
+                                                <Border Grid.Column="1" Stroke="Transparent">
+                                                    <Label Text="{Binding Time}"  FontSize="14" VerticalTextAlignment="Start"/>
+                                                </Border>
+                                                <Border Grid.Column="2" Stroke="Transparent">
+                                                    <Label Text="{Binding Fish}"  FontSize="14" VerticalTextAlignment="Start"/>
+                                                </Border>
+                                            </Grid>
+
+                                            
+                                           
+                                           
+                                        </StackLayout>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                        </Border>
+
+                    </Grid>
+                   
+
+
+                </StackLayout>
+
+            </Frame>
+        </Grid>
+        </ScrollView>
+</ContentPage>

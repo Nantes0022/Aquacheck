@@ -1,0 +1,699 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\settimefish.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\settimefish.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\aquacheckproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\aquacheckproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\reportsparam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\reportsparam.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\reportsparam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\reportsparam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\tdslevel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\tdslevel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\tdslevel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\tdslevel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\phlevel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\phlevel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\turbidity.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\turbidity.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\temperature.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\temperature.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\turbidity.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\turbidity.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\temperature.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\temperature.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\phlevel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\phlevel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\tofeed.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\tofeed.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\drainwater.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\drainwater.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\watercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\watercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\watercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\watercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\drainwater.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\drainwater.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\fillwater.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\fillwater.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\settimefish.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\settimefish.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\ventilation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\ventilation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\fillwater.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\fillwater.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\gatherdata\\gathercontroldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\gatherdata\\gathercontroldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\ventilation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\ventilation.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\aquadex.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\aquadex.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\aquadex.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\aquadex.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\recparam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\recparam.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\settime.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\settime.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\tofeed.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\tofeed.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\gatherdata\\feeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\gatherdata\\feeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\gatherdata\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\gatherdata\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\gatherdata\\getdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\gatherdata\\getdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\instructions.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\instructions.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\aquacheckproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\aquacheckproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\resources\\images\\dissolving1.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\resources\\images\\dissolving1.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|c:\\users\\juber\\onedrive\\desktop\\cappy\\aquaphonics\\aquacheckproject\\resources\\images\\dissolving3.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{2B878D73-1C30-4E07-BFB7-1BA7BBAF27E0}|aquacheckProject\\aquacheckProject.csproj|solutionrelative:aquacheckproject\\resources\\images\\dissolving3.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "reportsParam.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\reportsParam.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\reportsParam.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\reportsParam.xaml",
+              "RelativeToolTip": "aquacheckProject\\reportsParam.xaml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwCAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-05T10:38:33.741Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "reportsParam.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\reportsParam.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\reportsParam.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\reportsParam.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\reportsParam.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAHoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T10:43:04.203Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{936b24b7-e640-3186-98a7-24307bb298e0}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "aquacheckProject",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\aquacheckProject.csproj",
+              "RelativeDocumentMoniker": "aquacheckProject\\aquacheckProject.csproj",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\aquacheckProject.csproj",
+              "RelativeToolTip": "aquacheckProject\\aquacheckProject.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-08T07:34:51.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "gatherControlData.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\GatherData\\gatherControlData.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\GatherData\\gatherControlData.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\GatherData\\gatherControlData.cs",
+              "RelativeToolTip": "aquacheckProject\\GatherData\\gatherControlData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T00:02:43.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WaterControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\WaterControl.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\WaterControl.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\WaterControl.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\WaterControl.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T23:58:43.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WaterControl.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\WaterControl.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\WaterControl.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\WaterControl.xaml",
+              "RelativeToolTip": "aquacheckProject\\WaterControl.xaml",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAcwGgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-07T23:58:37.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\HomePage.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\HomePage.xaml",
+              "RelativeToolTip": "aquacheckProject\\HomePage.xaml",
+              "ViewState": "AgIAANsAAAAAAAAAAAAgwOsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T20:44:35.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\HomePage.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\HomePage.xaml.cs",
+              "ViewState": "AgIAAN0BAAAAAAAAAAAvwO0BAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:00:29.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DrainWater.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\DrainWater.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\DrainWater.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\DrainWater.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\DrainWater.xaml.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAA9wE4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T00:02:49.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FillWater.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\FillWater.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\FillWater.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\FillWater.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\FillWater.xaml.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAswJAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T00:03:15.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Ventilation.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Ventilation.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\Ventilation.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Ventilation.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\Ventilation.xaml.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAADwv5IAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T23:57:59.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Ventilation.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Ventilation.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\Ventilation.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Ventilation.xaml",
+              "RelativeToolTip": "aquacheckProject\\Ventilation.xaml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswFAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-07T23:57:53.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FillWater.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\FillWater.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\FillWater.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\FillWater.xaml",
+              "RelativeToolTip": "aquacheckProject\\FillWater.xaml",
+              "ViewState": "AgIAADIAAAAAAAAAAADwv1AAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-07T23:57:08.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DrainWater.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\DrainWater.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\DrainWater.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\DrainWater.xaml",
+              "RelativeToolTip": "aquacheckProject\\DrainWater.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-07T23:56:13.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "aquaDex.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\aquaDex.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\aquaDex.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\aquaDex.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\aquaDex.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA8wA8AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:09:07.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "setTimeFish.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\setTimeFish.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\setTimeFish.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\setTimeFish.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\setTimeFish.xaml.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAkwOsAAADBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:09:20.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "aquaDex.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\aquaDex.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\aquaDex.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\aquaDex.xaml",
+              "RelativeToolTip": "aquacheckProject\\aquaDex.xaml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowD0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T08:59:41.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\MauiProgram.cs",
+              "RelativeToolTip": "aquacheckProject\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:11:30.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "setTime.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\setTime.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\setTime.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\setTime.xaml",
+              "RelativeToolTip": "aquacheckProject\\setTime.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAIBpwDQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T07:05:12.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "setTimeFish.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\setTimeFish.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\setTimeFish.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\setTimeFish.xaml",
+              "RelativeToolTip": "aquacheckProject\\setTimeFish.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T07:05:56.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "recParam.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\recParam.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\recParam.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\recParam.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\recParam.xaml.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAIBpwHIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T08:34:35.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "toFeed.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\toFeed.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\toFeed.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\toFeed.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\toFeed.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:50:31.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "tdsLevel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\tdsLevel.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\tdsLevel.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\tdsLevel.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\tdsLevel.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAhwEoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:17:09.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Instructions.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Instructions.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\Instructions.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Instructions.xaml",
+              "RelativeToolTip": "aquacheckProject\\Instructions.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAACBzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-12T16:55:12.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Temperature.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Temperature.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\Temperature.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Temperature.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\Temperature.xaml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwFwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:01:13.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "feedData.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\GatherData\\feedData.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\GatherData\\feedData.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\GatherData\\feedData.cs",
+              "RelativeToolTip": "aquacheckProject\\GatherData\\feedData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:14:51.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "toFeed.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\toFeed.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\toFeed.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\toFeed.xaml",
+              "RelativeToolTip": "aquacheckProject\\toFeed.xaml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAkwEwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-11T09:22:57.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "getData.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\GatherData\\getData.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\GatherData\\getData.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\GatherData\\getData.cs",
+              "RelativeToolTip": "aquacheckProject\\GatherData\\getData.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T15:53:07.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "aquacheckProject.csproj",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\aquacheckProject.csproj",
+              "RelativeDocumentMoniker": "aquacheckProject\\aquacheckProject.csproj",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\aquacheckProject.csproj",
+              "RelativeToolTip": "aquacheckProject\\aquacheckProject.csproj",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-12T08:14:57.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\App.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\App.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T18:16:26.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\App.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\App.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\App.xaml",
+              "RelativeToolTip": "aquacheckProject\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T18:23:57.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\AppShell.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\AppShell.xaml",
+              "RelativeToolTip": "aquacheckProject\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T18:24:12.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\AppShell.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T18:26:01.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Temperature.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Temperature.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\Temperature.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Temperature.xaml",
+              "RelativeToolTip": "aquacheckProject\\Temperature.xaml",
+              "ViewState": "AgIAABMAAAAAAAAAAAArwCgAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T17:01:30.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "phLevel.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\phLevel.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\phLevel.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\phLevel.xaml",
+              "RelativeToolTip": "aquacheckProject\\phLevel.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T16:54:24.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "phLevel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\phLevel.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\phLevel.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\phLevel.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\phLevel.xaml.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwEUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:54:23.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tdsLevel.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\tdsLevel.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\tdsLevel.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\tdsLevel.xaml",
+              "RelativeToolTip": "aquacheckProject\\tdsLevel.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T16:17:03.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Turbidity.xaml",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Turbidity.xaml",
+              "RelativeDocumentMoniker": "aquacheckProject\\Turbidity.xaml",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Turbidity.xaml",
+              "RelativeToolTip": "aquacheckProject\\Turbidity.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T16:49:01.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "sensorData.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\GatherData\\sensorData.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\GatherData\\sensorData.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\GatherData\\sensorData.cs",
+              "RelativeToolTip": "aquacheckProject\\GatherData\\sensorData.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T17:14:11.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Turbidity.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Turbidity.xaml.cs",
+              "RelativeDocumentMoniker": "aquacheckProject\\Turbidity.xaml.cs",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Turbidity.xaml.cs",
+              "RelativeToolTip": "aquacheckProject\\Turbidity.xaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAgwEsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:48:31.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "dissolving3.png - PNG [512x512, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Resources\\Images\\dissolving3.png",
+              "RelativeDocumentMoniker": "aquacheckProject\\Resources\\Images\\dissolving3.png",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Resources\\Images\\dissolving3.png - PNG [512x512, 32 bit, PNG]",
+              "RelativeToolTip": "aquacheckProject\\Resources\\Images\\dissolving3.png - PNG [512x512, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-08T16:38:14.342Z",
+              "EditorCaption": " - PNG [512x512, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "dissolving1.png - PNG [512x512, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Resources\\Images\\dissolving1.png",
+              "RelativeDocumentMoniker": "aquacheckProject\\Resources\\Images\\dissolving1.png",
+              "ToolTip": "C:\\Users\\juber\\OneDrive\\Desktop\\Cappy\\Aquaphonics\\aquacheckProject\\Resources\\Images\\dissolving1.png - PNG [512x512, 32 bit, PNG]",
+              "RelativeToolTip": "aquacheckProject\\Resources\\Images\\dissolving1.png - PNG [512x512, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-08T16:17:57.977Z",
+              "EditorCaption": " - PNG [512x512, 32 bit, PNG]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

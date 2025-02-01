@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aquacheckProject.setTime"
+             Title="setTime">
+    <Grid BackgroundColor="#dfdde1">
+        <!-- Define row definitions -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- For the Image -->
+            <RowDefinition Height="Auto"/>
+            <!-- For the Title -->
+            <RowDefinition Height="*"/>
+            <!-- For the white Frame section, takes remaining space -->
+        </Grid.RowDefinitions>
+
+        <!-- Initial Image Frame -->
+        <Frame Grid.Row="0" BorderColor="Transparent" BackgroundColor="Transparent">
+            <Image Source="aqua.png" HeightRequest="50"/>
+        </Frame>
+
+        <!-- Title Section -->
+        <StackLayout Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,-45,0,0">
+            <Frame BorderColor="Transparent" Background="Transparent">
+                <Label FontFamily="Poppins-Bold" FontSize="20" Text="Feeding System"/>
+            </Frame>
+        </StackLayout>
+
+        <!-- Main Content Section (White Frame) that will expand -->
+        <Frame Grid.Row="2" BorderColor="Transparent" CornerRadius="30" BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <StackLayout VerticalOptions="FillAndExpand" Margin="0,10,0,0">
+                <!-- Arrow Image at the top -->
+                <StackLayout>
+                    <Image Source="arrow.png" HeightRequest="25" HorizontalOptions="Start" VerticalOptions="Start"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="back_Tapped" NumberOfTapsRequired="1" />
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+
+                <StackLayout Margin="0,50,0,0" HorizontalOptions="Center">
+                    <Label FontFamily="Poppins-SemiBold" FontSize="40" TextColor="#000000" Text="SET TIME" HorizontalOptions="Center"/>
+                    <TimePicker FontFamily="Poppins-SemiBold" FontSize="30" TextColor="#717070" HorizontalOptions="Center" Margin="0,10,0,0" x:Name="timepick"></TimePicker>
+                    <Label FontFamily="Poppins-SemiBold" FontSize="20" TextColor="#000000" Text="Feeding Frequency" HorizontalOptions="Center" Margin="0,30,0,0"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <RadioButton Content="1x" GroupName="feedGroup" FontSize="18" CheckedChanged="feedRadioButton_CheckedChanged"/>
+                        <RadioButton Content="2x" GroupName="feedGroup" FontSize="18" Margin="30,0,0,0" CheckedChanged="feedRadioButton_CheckedChanged"/>
+                        <RadioButton Content="3x" GroupName="feedGroup" FontSize="18" Margin="30,0,0,0" CheckedChanged="feedRadioButton_CheckedChanged"/>
+                    </StackLayout>
+                    <Label FontFamily="Poppins-SemiBold" FontSize="20" TextColor="#000000" Text="Feeding Time" HorizontalOptions="Center" Margin="0,30,0,0"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <RadioButton Content="Once" GroupName="feedTypeGroup" FontSize="18" CheckedChanged="feedTypeRadioButton_CheckedChanged"/>
+                        <RadioButton Content="Everyday" GroupName="feedTypeGroup" FontSize="18" Margin="30,0,0,0" CheckedChanged="feedTypeRadioButton_CheckedChanged"/>
+                    </StackLayout>
+                    <Frame BorderColor="Transparent" Background="#D9E5FF" Padding="20,8,22,5" Margin="30,40,30,0" CornerRadius="15">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <Label FontFamily="Poppins-SemiBold" FontSize="20" TextColor="#000000" Text="SAVE" Padding="5,0,0,0"/>
+                        </StackLayout>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="setTimeNow_Tapped" NumberOfTapsRequired="1" />
+                        </Frame.GestureRecognizers>
+                    </Frame>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </Grid>
+</ContentPage>

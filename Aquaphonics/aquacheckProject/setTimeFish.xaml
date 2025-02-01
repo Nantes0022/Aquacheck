@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aquacheckProject.setTimeFish"
+             Title="setTimeFish">
+    <Grid BackgroundColor="#dfdde1">
+        <!-- Define row definitions -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- For the Image -->
+            <RowDefinition Height="Auto"/>
+            <!-- For the Title -->
+            <RowDefinition Height="*"/>
+            <!-- For the white Frame section, takes remaining space -->
+        </Grid.RowDefinitions>
+
+        <!-- Initial Image Frame -->
+        <Frame Grid.Row="0" BorderColor="Transparent" BackgroundColor="Transparent">
+            <Image Source="aqua.png" HeightRequest="50"/>
+        </Frame>
+
+        <!-- Title Section -->
+        <StackLayout Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,-45,0,0">
+            <Frame BorderColor="Transparent" Background="Transparent">
+                <Label FontFamily="Poppins-Bold" FontSize="20" Text="Feeding System"/>
+            </Frame>
+        </StackLayout>
+
+        <!-- Main Content Section (White Frame) that will expand -->
+        <Border Grid.Row="2" Stroke="Transparent"  BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="20,20,0,0"></RoundRectangle>
+            </Border.StrokeShape>
+            <StackLayout VerticalOptions="FillAndExpand" Margin="10,20,0,0">
+                <!-- Arrow Image at the top -->
+                <StackLayout>
+                    <Image Source="arrow.png" HeightRequest="25" HorizontalOptions="Start" VerticalOptions="Start"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="back_Tapped" NumberOfTapsRequired="1" />
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+
+                <StackLayout Margin="0,10,0,0" HorizontalOptions="Center">
+                    <StackLayout>
+                        <Picker Title="Select Type of Feeding" x:Name="pickFeed" FontFamily="Poppins-Bold" FontSize="20" HorizontalTextAlignment="Center" SelectedIndexChanged="pickFeed_SelectedIndexChanged">
+                            <Picker.Items>
+                                <x:String>Manual Feeding</x:String>
+                                <x:String>Feed based on fish</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout x:Name="AutoFeed" Margin="0,30,0,0" HorizontalOptions="Center" IsVisible="False">
+                    <StackLayout>
+                        <Picker Title="Select Fish" x:Name="pickFish" FontFamily="Poppins-Bold" FontSize="20" HorizontalTextAlignment="Center" SelectedIndexChanged="pickFish_SelectedIndexChanged">
+                            <Picker.Items>
+                                <x:String>Guppies</x:String>
+                                <x:String>Neon Tetras</x:String>
+                                <x:String>Mollies</x:String>
+                                <x:String>Platies</x:String>
+                                <x:String>Angelfish</x:String>
+                                <x:String>Goldfish</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout x:Name="fishControl" IsVisible="False">
+                    <Border  Margin="10,30,15,0" >
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="30,30,30,30"></RoundRectangle>
+                        </Border.StrokeShape>
+                        <StackLayout Background="#dfdde1">
+
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="10,10,10,0">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Time: " FontFamily="Poppins-SemiBold" FontSize="20"></Label>
+                                    <Label x:Name="timeDisplay" Text=" Select Fish" FontFamily="Poppins-SemiBold" FontSize="20"></Label>
+                                </StackLayout>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,0,0,10">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Dispense Time: " FontFamily="Poppins-SemiBold" FontSize="20"></Label>
+                                    <Label x:Name="dispenseDisplay" FontFamily="Poppins-SemiBold" FontSize="20"></Label>
+
+                                </StackLayout>
+                            </StackLayout>
+                        </StackLayout>
+                    </Border>
+
+                    <Border Stroke="Transparent" Background="#D9E5FF" Padding="20,8,22,5" Margin="100,40,100,0" >
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="15" ></RoundRectangle>
+                        </Border.StrokeShape>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <Label FontFamily="Poppins-SemiBold" FontSize="20" TextColor="#000000" Text="SAVE" Padding="5,0,0,0"/>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Save_Tapped"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </Border>
+
+
+                    
+                </StackLayout>
+
+                <StackLayout x:Name="feedbtn" IsVisible="False">
+                    <Border Stroke="Transparent" Background="#D9E5FF" Padding="20,8,22,5" Margin="100,40,100,0" >
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="15" ></RoundRectangle>
+                        </Border.StrokeShape>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <Label FontFamily="Poppins-SemiBold" FontSize="20" TextColor="#000000" Text="Feed Now" Padding="5,0,0,0"/>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Feed_Tapped"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </Border>
+                </StackLayout>
+            </StackLayout>
+        </Border>
+    </Grid>
+</ContentPage>
